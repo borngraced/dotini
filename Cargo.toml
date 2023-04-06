@@ -9,7 +9,7 @@ keywords = ["ini", "parser", "configuration", "parsing", "file format", "setting
 categories = ["parser-implementations", "parsing", "filesystem"]
 readme = "README.md"
 license = "MIT OR Apache-2.0"
-license-file = "LICENSE.txt"
+license-file = "LICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
