@@ -1,11 +1,22 @@
 [package]
 name = "dotini"
+authors = ["Samuel Onoja <samiodev@icloud.com>"]
 description = "dotini is a Rust library for parsing INI files into a HashMap."
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/borngraced/dotini/tree/main"
+keywords = ["ini", "parser", "configuration", "parsing", "file format", "settings"]
+categories = ["parser-implementations", "parsing", "filesystem"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+license-file = "LICENSE.txt"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 pest = "2.5.7"
 pest_derive = "2.5.7"
+
+exclude = [
+    "example/*",
+]
