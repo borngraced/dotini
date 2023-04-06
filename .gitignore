@@ -11,3 +11,5 @@ Cargo.lock
 
 /example/target
 /example/Cargo.lock
+.DS_Store
+.idea
