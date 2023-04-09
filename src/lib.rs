@@ -131,7 +131,7 @@ impl INIParser {
                           .insert(name, val);
                 }
                 Rule::EOI => (),
-                _ => unreachable!(),
+                _ => Err(InIParseError::Unreachable),
             };
         }
         Ok(Self { output })
